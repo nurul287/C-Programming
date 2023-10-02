@@ -52,7 +52,7 @@ public:
         int newvalue = -1;
         if (head == NULL) // There is no element;
         {
-            cout << 'Stack Underflow' << endl;
+            cout << "Stack Underflow" << endl;
             return newvalue;
         }
         if (top == head) // There is only 1 element;
@@ -90,7 +90,7 @@ public:
     {
         if (top == NULL)
         {
-            cout << 'Stack Underflow | There is no element' << endl;
+            cout << "Stack Underflow | There is no element" << endl;
         }
         else
             return top->value;

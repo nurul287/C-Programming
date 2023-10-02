@@ -13,5 +13,5 @@ int main()
     {
         cout << st.pop() << endl;
     }
-    return;
+    return 0;
 };
